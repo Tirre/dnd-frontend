@@ -1,7 +1,8 @@
-# Vue 3 + Vite
+# DnD Frontend
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+This is a small project that was developed to assist in handling Dungeons and Dragons combat.
+It allows you to automatically import AC/HP/resistance/vulnerability values of monster and automatically roll their initiative.
+In addition, you can create your own monsters/players and save them to the local storage. These can then be imported into the current combat.
 
-## Recommended IDE Setup
-
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+There is a built-in round handler at the top and you can also use the tool to track HP/temp HP/status effects and potential vulnerabilities/resistances that monsters have.
+Last, but not least you can also save and load the current state of combat which allows you to either end in the middle of combat and resumse at a later stage or even prepare combat before the session!
